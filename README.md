@@ -18,3 +18,6 @@ This script will help read the offline balance and transaction history. Develope
     4. SELECT AID -> GPO with PDOL -> Extract Tag DF33 Service Balance.
     5. READ Card Information -> PAN (Masked) & Expiry Date.
     6. READ SFI 16 (Log Records) -> Decode Common Service Area & Language.
+
+### Disclaimer:
+    This script was generated using LLM/AI tools.
