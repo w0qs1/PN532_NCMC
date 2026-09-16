@@ -9,14 +9,13 @@ Flow:
     4. SELECT AID -> GPO with PDOL -> Extract Tag DF33 Service Balance.
     5. READ Card Information -> PAN (Masked) & Expiry Date.
     6. READ SFI 16 (Log Records) -> Decode Common Service Area & Language.
-    7. Output ONLY the 6 required card summary fields & clean transaction history table.
 
 Dependencies:
     pip install pyserial
 
 Usage:
-    python3 emv_explorer.py
-    python3 emv_explorer.py --port /dev/ttyUSB0 --debug
+    python3 get_balance.py
+    python3 get_balance.py --port /dev/ttyUSB0 --debug
 """
 
 import argparse
